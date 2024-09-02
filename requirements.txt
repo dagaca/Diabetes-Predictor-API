@@ -1,0 +1,8 @@
+Flask==2.2.5
+Werkzeug==2.2.3
+flasgger==0.9.7.1
+python-dotenv==0.21.0
+deep_translator==1.11.4
+numpy==1.24.3
+scikit-learn==1.4.2
+joblib==1.4.2

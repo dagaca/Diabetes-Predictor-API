@@ -1,0 +1,756 @@
+2024-08-24 23:55:35,542 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:55:35,546 - app - INFO - Request Method: POST
+2024-08-24 23:55:35,548 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:55:35,551 - app - INFO - Response Status: 415 UNSUPPORTED MEDIA TYPE
+2024-08-24 23:55:47,687 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:55:47,692 - app - INFO - Request Method: POST
+2024-08-24 23:55:47,694 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:55:47,697 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-24 23:55:47,700 - app - ERROR - Error: X has 8 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-24 23:55:47,702 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-24 23:56:47,524 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:56:47,527 - app - INFO - Request Method: POST
+2024-08-24 23:56:47,531 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:56:47,532 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-24 23:56:47,534 - app - ERROR - Error: X has 8 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-24 23:56:47,536 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-24 23:56:59,044 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:56:59,048 - app - INFO - Request Method: POST
+2024-08-24 23:56:59,050 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:56:59,052 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-24 23:56:59,054 - app - ERROR - Error: X has 14 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-24 23:56:59,057 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-24 23:57:00,623 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:57:00,626 - app - INFO - Request Method: POST
+2024-08-24 23:57:00,628 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:57:00,631 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-24 23:57:00,633 - app - ERROR - Error: X has 14 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-24 23:57:00,635 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-24 23:57:41,778 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:57:41,782 - app - INFO - Request Method: POST
+2024-08-24 23:57:41,784 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:57:41,786 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-24 23:57:41,788 - app - ERROR - Error: X has 14 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-24 23:57:41,790 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-24 23:57:43,080 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:57:43,084 - app - INFO - Request Method: POST
+2024-08-24 23:57:43,085 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:57:43,087 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-24 23:57:43,090 - app - ERROR - Error: X has 14 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-24 23:57:43,091 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-24 23:57:52,239 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-24 23:57:52,244 - app - INFO - Request Method: POST
+2024-08-24 23:57:52,247 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-24 23:57:52,250 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-24 23:57:52,258 - app - ERROR - Error: X has 111 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-24 23:57:52,260 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-25 00:00:06,108 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:00:06,108 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:00:06,112 - app - INFO - Request Method: POST
+2024-08-25 00:00:06,112 - app - INFO - Request Method: POST
+2024-08-25 00:00:06,115 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:00:06,115 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:00:06,117 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:00:06,117 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:00:06,120 - app - ERROR - Error: X has 111 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-25 00:00:06,120 - app - ERROR - Error: X has 111 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-25 00:00:06,122 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-25 00:00:06,122 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-25 00:00:07,944 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:00:07,944 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:00:07,950 - app - INFO - Request Method: POST
+2024-08-25 00:00:07,950 - app - INFO - Request Method: POST
+2024-08-25 00:00:07,952 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:00:07,952 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:00:07,953 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:00:07,953 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:00:07,957 - app - ERROR - Error: X has 111 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-25 00:00:07,957 - app - ERROR - Error: X has 111 features, but RandomForestClassifier is expecting 42 features as input.
+2024-08-25 00:00:07,959 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-25 00:00:07,959 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-25 00:01:58,954 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:01:58,957 - app - INFO - Request Method: POST
+2024-08-25 00:01:58,959 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:01:58,960 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:01:58,964 - app - ERROR - Error: all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)
+2024-08-25 00:01:58,965 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-25 00:02:00,940 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:02:00,943 - app - INFO - Request Method: POST
+2024-08-25 00:02:00,945 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:02:00,948 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:02:00,950 - app - ERROR - Error: all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)
+2024-08-25 00:02:00,951 - app - INFO - Response Status: 500 INTERNAL SERVER ERROR
+2024-08-25 00:02:42,022 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:02:42,022 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:02:42,025 - app - INFO - Request Method: POST
+2024-08-25 00:02:42,025 - app - INFO - Request Method: POST
+2024-08-25 00:02:42,027 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:02:42,027 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 2,\r\n    "Glucose": 120,\r\n    "BloodPressure": 70,\r\n    "SkinThickness": 20,\r\n    "Insulin": 85,\r\n    "BMI": 28.1,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 45\r\n}\r\n'
+2024-08-25 00:02:42,030 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:02:42,030 - app - INFO - Received request data: {'Pregnancies': 2, 'Glucose': 120, 'BloodPressure': 70, 'SkinThickness': 20, 'Insulin': 85, 'BMI': 28.1, 'DiabetesPedigreeFunction': 0.627, 'Age': 45}
+2024-08-25 00:02:42,062 - app - INFO - Prediction: 1, Probability: 0.6
+2024-08-25 00:02:42,062 - app - INFO - Prediction: 1, Probability: 0.6
+2024-08-25 00:02:42,064 - app - INFO - Response Status: 200 OK
+2024-08-25 00:02:42,064 - app - INFO - Response Status: 200 OK
+2024-08-25 00:03:58,652 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:03:58,652 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:03:58,659 - app - INFO - Request Method: POST
+2024-08-25 00:03:58,659 - app - INFO - Request Method: POST
+2024-08-25 00:03:58,662 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:03:58,662 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:03:58,665 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:03:58,665 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:03:58,700 - app - INFO - Prediction: 1, Probability: 0.7466666666666667
+2024-08-25 00:03:58,700 - app - INFO - Prediction: 1, Probability: 0.7466666666666667
+2024-08-25 00:03:58,702 - app - INFO - Response Status: 200 OK
+2024-08-25 00:03:58,702 - app - INFO - Response Status: 200 OK
+2024-08-25 00:06:23,190 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:06:23,190 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:06:23,195 - app - INFO - Request Method: POST
+2024-08-25 00:06:23,195 - app - INFO - Request Method: POST
+2024-08-25 00:06:23,198 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:06:23,198 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:06:23,200 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:06:23,200 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:06:23,228 - app - INFO - Prediction: 1, Probability: 0.7466666666666667
+2024-08-25 00:06:23,228 - app - INFO - Prediction: 1, Probability: 0.7466666666666667
+2024-08-25 00:06:23,230 - app - INFO - Response Status: 200 OK
+2024-08-25 00:06:23,230 - app - INFO - Response Status: 200 OK
+2024-08-25 00:06:28,674 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:06:28,674 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:06:28,674 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:06:28,680 - app - INFO - Request Method: POST
+2024-08-25 00:06:28,680 - app - INFO - Request Method: POST
+2024-08-25 00:06:28,680 - app - INFO - Request Method: POST
+2024-08-25 00:06:28,683 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:06:28,683 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:06:28,683 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:06:28,684 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:06:28,684 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:06:28,684 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:06:28,715 - app - INFO - Prediction: Diabetes Detected, Probability: 0.7466666666666667
+2024-08-25 00:06:28,715 - app - INFO - Prediction: Diabetes Detected, Probability: 0.7466666666666667
+2024-08-25 00:06:28,715 - app - INFO - Prediction: Diabetes Detected, Probability: 0.7466666666666667
+2024-08-25 00:06:28,719 - app - INFO - Response Status: 200 OK
+2024-08-25 00:06:28,719 - app - INFO - Response Status: 200 OK
+2024-08-25 00:06:28,719 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:16,547 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:16,547 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:16,547 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:16,547 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:16,552 - app - INFO - Request Method: POST
+2024-08-25 00:11:16,552 - app - INFO - Request Method: POST
+2024-08-25 00:11:16,552 - app - INFO - Request Method: POST
+2024-08-25 00:11:16,552 - app - INFO - Request Method: POST
+2024-08-25 00:11:16,556 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:16,556 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:16,556 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:16,556 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:16,560 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:16,560 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:16,560 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:16,560 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:16,595 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:16,595 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:16,595 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:16,595 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:16,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:16,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:16,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:16,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:18,565 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:18,565 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:18,565 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:18,565 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:11:18,572 - app - INFO - Request Method: POST
+2024-08-25 00:11:18,572 - app - INFO - Request Method: POST
+2024-08-25 00:11:18,572 - app - INFO - Request Method: POST
+2024-08-25 00:11:18,572 - app - INFO - Request Method: POST
+2024-08-25 00:11:18,575 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:18,575 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:18,575 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:18,575 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50\r\n}\r\n'
+2024-08-25 00:11:18,579 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:18,579 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:18,579 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:18,579 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50}
+2024-08-25 00:11:18,617 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:18,617 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:18,617 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:18,617 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 00:11:18,621 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:18,621 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:18,621 - app - INFO - Response Status: 200 OK
+2024-08-25 00:11:18,621 - app - INFO - Response Status: 200 OK
+2024-08-25 00:14:32,037 - app - INFO - Request URL: http://127.0.0.1:8080/
+2024-08-25 00:14:32,037 - app - INFO - Request URL: http://127.0.0.1:8080/
+2024-08-25 00:14:32,037 - app - INFO - Request URL: http://127.0.0.1:8080/
+2024-08-25 00:14:32,037 - app - INFO - Request URL: http://127.0.0.1:8080/
+2024-08-25 00:14:32,037 - app - INFO - Request URL: http://127.0.0.1:8080/
+2024-08-25 00:14:32,037 - app - INFO - Request URL: http://127.0.0.1:8080/
+2024-08-25 00:14:32,045 - app - INFO - Request Method: GET
+2024-08-25 00:14:32,045 - app - INFO - Request Method: GET
+2024-08-25 00:14:32,045 - app - INFO - Request Method: GET
+2024-08-25 00:14:32,045 - app - INFO - Request Method: GET
+2024-08-25 00:14:32,045 - app - INFO - Request Method: GET
+2024-08-25 00:14:32,045 - app - INFO - Request Method: GET
+2024-08-25 00:14:32,056 - app - INFO - Request Data: b''
+2024-08-25 00:14:32,056 - app - INFO - Request Data: b''
+2024-08-25 00:14:32,056 - app - INFO - Request Data: b''
+2024-08-25 00:14:32,056 - app - INFO - Request Data: b''
+2024-08-25 00:14:32,056 - app - INFO - Request Data: b''
+2024-08-25 00:14:32,056 - app - INFO - Request Data: b''
+2024-08-25 00:14:32,060 - app - INFO - Response Status: 404 NOT FOUND
+2024-08-25 00:14:32,060 - app - INFO - Response Status: 404 NOT FOUND
+2024-08-25 00:14:32,060 - app - INFO - Response Status: 404 NOT FOUND
+2024-08-25 00:14:32,060 - app - INFO - Response Status: 404 NOT FOUND
+2024-08-25 00:14:32,060 - app - INFO - Response Status: 404 NOT FOUND
+2024-08-25 00:14:32,060 - app - INFO - Response Status: 404 NOT FOUND
+2024-08-25 00:16:09,628 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:16:09,628 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:16:09,628 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:16:09,628 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:16:09,628 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:16:09,628 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:16:09,636 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,636 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,636 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,636 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,636 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,636 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,640 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,640 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,640 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,640 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,640 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,640 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,677 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:09,677 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:09,677 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:09,677 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:09,677 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:09,677 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:09,796 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:16:09,800 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:16:09,796 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:16:09,801 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:16:09,800 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:16:09,796 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:16:09,801 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:16:09,804 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:16:09,796 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:16:09,800 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:16:09,796 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:16:09,801 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:16:09,804 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:16:09,800 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:16:09,796 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:16:09,801 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:16:09,800 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:16:09,800 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:16:09,804 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:16:09,801 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:16:09,804 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:16:09,824 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,827 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,801 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:16:09,824 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,804 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:16:09,824 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,827 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,804 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:16:09,824 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,830 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,824 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,827 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,824 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,827 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,830 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,833 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,827 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,833 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,830 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,827 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,836 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,833 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,830 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,836 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,830 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,836 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,833 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,830 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,836 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,841 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,833 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,841 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,833 - app - INFO - Request Method: GET
+2024-08-25 00:16:09,841 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,836 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,845 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,845 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,836 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,845 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,849 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,841 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,849 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,841 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,845 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,849 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,841 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,845 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,849 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,845 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,849 - app - INFO - Request Data: b''
+2024-08-25 00:16:09,849 - app - INFO - Request Data: b''
+2024-08-25 00:16:10,110 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,110 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,110 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,110 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,110 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,110 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,154 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,154 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,154 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,154 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,154 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,154 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,200 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,200 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,200 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,200 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,200 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,200 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,205 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,205 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,205 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,205 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,205 - app - INFO - Response Status: 200 OK
+2024-08-25 00:16:10,205 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,426 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:17:03,426 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:17:03,426 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:17:03,426 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:17:03,426 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:17:03,426 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:17:03,433 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,433 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,433 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,433 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,433 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,433 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,438 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,438 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,438 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,438 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,438 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,438 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,442 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,442 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,442 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,442 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,442 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,442 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,526 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:17:03,526 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:17:03,526 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:17:03,526 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:17:03,526 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:17:03,526 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:17:03,534 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,534 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,534 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,534 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,534 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,534 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,541 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:17:03,541 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:17:03,544 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:17:03,541 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:17:03,544 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:17:03,545 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:17:03,541 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:17:03,545 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:17:03,541 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:17:03,551 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,544 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:17:03,541 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:17:03,551 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,544 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:17:03,545 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:17:03,544 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:17:03,564 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,551 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,545 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:17:03,545 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:17:03,544 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:17:03,545 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:17:03,551 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,564 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,564 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,551 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,564 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,564 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,551 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,569 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,564 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,570 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,569 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,570 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,569 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,577 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,570 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,578 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,569 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,577 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,570 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,569 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,578 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,577 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,569 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,570 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,578 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,577 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,570 - app - INFO - Request Method: GET
+2024-08-25 00:17:03,577 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,578 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,578 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,584 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,584 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,577 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,578 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,584 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,587 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,584 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,584 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,584 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,587 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,595 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,587 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,595 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,587 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,595 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,587 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,595 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,587 - app - INFO - Request Data: b''
+2024-08-25 00:17:03,595 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,595 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,598 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,605 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,605 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,605 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,605 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,605 - app - INFO - Response Status: 200 OK
+2024-08-25 00:17:03,605 - app - INFO - Response Status: 200 OK
+2024-08-25 00:18:48,298 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:18:48,303 - app - INFO - Request Method: GET
+2024-08-25 00:18:48,305 - app - INFO - Request Data: b''
+2024-08-25 00:18:48,335 - app - INFO - Response Status: 200 OK
+2024-08-25 00:18:48,463 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:18:48,470 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:18:48,477 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:18:48,481 - app - INFO - Request Method: GET
+2024-08-25 00:18:48,481 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:18:48,486 - app - INFO - Request Method: GET
+2024-08-25 00:18:48,489 - app - INFO - Request Method: GET
+2024-08-25 00:18:48,492 - app - INFO - Request Data: b''
+2024-08-25 00:18:48,494 - app - INFO - Request Method: GET
+2024-08-25 00:18:48,499 - app - INFO - Request Data: b''
+2024-08-25 00:18:48,502 - app - INFO - Request Data: b''
+2024-08-25 00:18:48,506 - app - INFO - Request Data: b''
+2024-08-25 00:18:48,823 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:18:48,840 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:18:48,866 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:18:48,871 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:19:06,859 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 00:19:06,864 - app - INFO - Request Method: GET
+2024-08-25 00:19:06,867 - app - INFO - Request Data: b''
+2024-08-25 00:19:06,869 - app - INFO - Response Status: 200 OK
+2024-08-25 00:19:07,015 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:19:07,022 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:19:07,028 - app - INFO - Request Method: GET
+2024-08-25 00:19:07,029 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:19:07,032 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:19:07,033 - app - INFO - Request Method: GET
+2024-08-25 00:19:07,039 - app - INFO - Request Data: b''
+2024-08-25 00:19:07,044 - app - INFO - Request Method: GET
+2024-08-25 00:19:07,046 - app - INFO - Request Method: GET
+2024-08-25 00:19:07,048 - app - INFO - Request Data: b''
+2024-08-25 00:19:07,052 - app - INFO - Request Data: b''
+2024-08-25 00:19:07,053 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:19:07,055 - app - INFO - Request Data: b''
+2024-08-25 00:19:07,060 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:19:07,064 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:19:07,076 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:19:07,331 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 00:19:07,337 - app - INFO - Request Method: GET
+2024-08-25 00:19:07,340 - app - INFO - Request Data: b''
+2024-08-25 00:19:07,348 - app - INFO - Response Status: 200 OK
+2024-08-25 00:19:07,570 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2024-08-25 00:19:07,577 - app - INFO - Request Method: GET
+2024-08-25 00:19:07,581 - app - INFO - Request Data: b''
+2024-08-25 00:19:07,601 - app - INFO - Response Status: 200 OK
+2024-08-25 00:19:07,644 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 00:19:07,652 - app - INFO - Request Method: GET
+2024-08-25 00:19:07,655 - app - INFO - Request Data: b''
+2024-08-25 00:19:07,659 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:19:23,605 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 00:19:23,610 - app - INFO - Request Method: POST
+2024-08-25 00:19:23,613 - app - INFO - Request Data: b'{\n  "Age": 33,\n  "BMI": 25,\n  "BloodPressure": 70,\n  "DiabetesPedigreeFunction": 0.5,\n  "Glucose": 120,\n  "Insulin": 80,\n  "Pregnancies": 2,\n  "SkinThickness": 30\n}'
+2024-08-25 00:19:23,616 - app - INFO - Received request data: {'Age': 33, 'BMI': 25, 'BloodPressure': 70, 'DiabetesPedigreeFunction': 0.5, 'Glucose': 120, 'Insulin': 80, 'Pregnancies': 2, 'SkinThickness': 30}
+2024-08-25 00:19:23,662 - app - INFO - Prediction: No Diabetes Detected, Probability: 0.32
+2024-08-25 00:19:23,663 - app - INFO - Response Status: 200 OK
+2024-08-25 00:32:35,021 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:32:35,021 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 00:32:35,026 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:32:35,026 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 00:32:35,029 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:32:35,029 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 00:32:35,034 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:32:35,034 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 00:32:35,038 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,042 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,038 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,046 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,042 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,047 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,050 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,046 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,053 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,047 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,058 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,050 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,060 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,053 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,058 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,067 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,060 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,067 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,072 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,072 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,076 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,080 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,076 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,080 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,321 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 00:32:35,321 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 00:32:35,327 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,327 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,330 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,330 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,334 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,334 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 00:32:35,436 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2024-08-25 00:32:35,436 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2024-08-25 00:32:35,442 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,442 - app - INFO - Request Method: GET
+2024-08-25 00:32:35,445 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,445 - app - INFO - Request Data: b''
+2024-08-25 00:32:35,456 - app - INFO - Response Status: 200 OK
+2024-08-25 00:32:35,456 - app - INFO - Response Status: 200 OK
+2024-08-25 16:21:54,858 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:21:54,858 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:21:54,858 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:21:54,863 - app - INFO - Request Method: POST
+2024-08-25 16:21:54,863 - app - INFO - Request Method: POST
+2024-08-25 16:21:54,863 - app - INFO - Request Method: POST
+2024-08-25 16:21:54,866 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "en"  \n}\r\n'
+2024-08-25 16:21:54,866 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "en"  \n}\r\n'
+2024-08-25 16:21:54,866 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "en"  \n}\r\n'
+2024-08-25 16:21:54,869 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'en'}
+2024-08-25 16:21:54,869 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'en'}
+2024-08-25 16:21:54,869 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'en'}
+2024-08-25 16:21:54,909 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 16:21:54,909 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 16:21:54,909 - app - INFO - Prediction: Diabetes Detected, Probability: 0.75
+2024-08-25 16:21:54,913 - app - INFO - Response Status: 200 OK
+2024-08-25 16:21:54,913 - app - INFO - Response Status: 200 OK
+2024-08-25 16:21:54,913 - app - INFO - Response Status: 200 OK
+2024-08-25 16:22:01,447 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:22:01,447 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:22:01,447 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:22:01,452 - app - INFO - Request Method: POST
+2024-08-25 16:22:01,452 - app - INFO - Request Method: POST
+2024-08-25 16:22:01,452 - app - INFO - Request Method: POST
+2024-08-25 16:22:01,455 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-25 16:22:01,455 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-25 16:22:01,455 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-25 16:22:01,458 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-25 16:22:01,458 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-25 16:22:01,458 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-25 16:22:04,646 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-25 16:22:04,646 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-25 16:22:04,646 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-25 16:22:04,650 - app - INFO - Response Status: 200 OK
+2024-08-25 16:22:04,650 - app - INFO - Response Status: 200 OK
+2024-08-25 16:22:04,650 - app - INFO - Response Status: 200 OK
+2024-08-25 16:22:14,305 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:22:14,305 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:22:14,305 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:22:14,310 - app - INFO - Request Method: POST
+2024-08-25 16:22:14,310 - app - INFO - Request Method: POST
+2024-08-25 16:22:14,310 - app - INFO - Request Method: POST
+2024-08-25 16:22:14,313 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "de"  \n}\r\n'
+2024-08-25 16:22:14,313 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "de"  \n}\r\n'
+2024-08-25 16:22:14,313 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "de"  \n}\r\n'
+2024-08-25 16:22:14,315 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'de'}
+2024-08-25 16:22:14,315 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'de'}
+2024-08-25 16:22:14,315 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'de'}
+2024-08-25 16:22:15,634 - app - INFO - Prediction: Diabetes erkannt, Probability: 0.75
+2024-08-25 16:22:15,634 - app - INFO - Prediction: Diabetes erkannt, Probability: 0.75
+2024-08-25 16:22:15,634 - app - INFO - Prediction: Diabetes erkannt, Probability: 0.75
+2024-08-25 16:22:15,637 - app - INFO - Response Status: 200 OK
+2024-08-25 16:22:15,637 - app - INFO - Response Status: 200 OK
+2024-08-25 16:22:15,637 - app - INFO - Response Status: 200 OK
+2024-08-25 16:28:32,672 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:28:32,677 - app - INFO - Request Method: POST
+2024-08-25 16:28:32,678 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "de"  \n}\r\n'
+2024-08-25 16:28:32,680 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'de'}
+2024-08-25 16:28:33,303 - app - INFO - Prediction: Diabetes erkannt, Probability: 0.75
+2024-08-25 16:28:33,305 - app - INFO - Response Status: 200 OK
+2024-08-25 16:28:37,455 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:28:37,458 - app - INFO - Request Method: POST
+2024-08-25 16:28:37,461 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-25 16:28:37,463 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-25 16:28:37,961 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-25 16:28:37,964 - app - INFO - Response Status: 200 OK
+2024-08-25 16:28:49,728 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 16:28:49,735 - app - INFO - Request Method: GET
+2024-08-25 16:28:49,738 - app - INFO - Request Data: b''
+2024-08-25 16:28:49,774 - app - INFO - Response Status: 200 OK
+2024-08-25 16:28:49,848 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 16:28:49,852 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 16:28:49,853 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 16:28:49,854 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 16:28:49,862 - app - INFO - Request Method: GET
+2024-08-25 16:28:49,866 - app - INFO - Request Method: GET
+2024-08-25 16:28:49,869 - app - INFO - Request Method: GET
+2024-08-25 16:28:49,872 - app - INFO - Request Method: GET
+2024-08-25 16:28:49,874 - app - INFO - Request Data: b''
+2024-08-25 16:28:49,876 - app - INFO - Request Data: b''
+2024-08-25 16:28:49,878 - app - INFO - Request Data: b''
+2024-08-25 16:28:49,881 - app - INFO - Request Data: b''
+2024-08-25 16:28:50,211 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:28:50,231 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:28:50,253 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:28:50,259 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:28:50,462 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 16:28:50,467 - app - INFO - Request Method: GET
+2024-08-25 16:28:50,469 - app - INFO - Request Data: b''
+2024-08-25 16:28:50,472 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:28:50,548 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2024-08-25 16:28:50,553 - app - INFO - Request Method: GET
+2024-08-25 16:28:50,556 - app - INFO - Request Data: b''
+2024-08-25 16:28:50,572 - app - INFO - Response Status: 200 OK
+2024-08-25 16:29:07,519 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 16:29:07,525 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,528 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,531 - app - INFO - Response Status: 200 OK
+2024-08-25 16:29:07,563 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 16:29:07,569 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,574 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 16:29:07,577 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,578 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 16:29:07,582 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 16:29:07,585 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,595 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:29:07,595 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,598 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,601 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,610 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,617 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,622 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:29:07,627 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:29:07,631 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:29:07,748 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 16:29:07,752 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,754 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,757 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:29:07,846 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2024-08-25 16:29:07,855 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 16:29:07,860 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,861 - app - INFO - Request Method: GET
+2024-08-25 16:29:07,863 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,867 - app - INFO - Request Data: b''
+2024-08-25 16:29:07,870 - app - INFO - Response Status: 200 OK
+2024-08-25 16:29:07,873 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:29:12,958 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:29:12,963 - app - INFO - Request Method: POST
+2024-08-25 16:29:12,966 - app - INFO - Request Data: b'{\n  "Age": 33,\n  "BMI": 25,\n  "BloodPressure": 70,\n  "DiabetesPedigreeFunction": 0.5,\n  "Glucose": 120,\n  "Insulin": 80,\n  "Language": "fr",\n  "Pregnancies": 2,\n  "SkinThickness": 30\n}'
+2024-08-25 16:29:12,968 - app - INFO - Received request data: {'Age': 33, 'BMI': 25, 'BloodPressure': 70, 'DiabetesPedigreeFunction': 0.5, 'Glucose': 120, 'Insulin': 80, 'Language': 'fr', 'Pregnancies': 2, 'SkinThickness': 30}
+2024-08-25 16:29:15,081 - app - INFO - Prediction: Aucun diabète détecté, Probability: 0.32
+2024-08-25 16:29:15,085 - app - INFO - Response Status: 200 OK
+2024-08-25 16:29:26,429 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:29:26,434 - app - INFO - Request Method: POST
+2024-08-25 16:29:26,436 - app - INFO - Request Data: b'{\n  "Age": 33,\n  "BMI": 25,\n  "BloodPressure": 70,\n  "DiabetesPedigreeFunction": 0.5,\n  "Glucose": 120,\n  "Insulin": 80,\n  "Language": "tr",\n  "Pregnancies": 2,\n  "SkinThickness": 30\n}'
+2024-08-25 16:29:26,439 - app - INFO - Received request data: {'Age': 33, 'BMI': 25, 'BloodPressure': 70, 'DiabetesPedigreeFunction': 0.5, 'Glucose': 120, 'Insulin': 80, 'Language': 'tr', 'Pregnancies': 2, 'SkinThickness': 30}
+2024-08-25 16:29:27,901 - app - INFO - Prediction: Diyabet Tespit Edilmedi, Probability: 0.32
+2024-08-25 16:29:27,903 - app - INFO - Response Status: 200 OK
+2024-08-25 16:43:35,490 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:43:35,491 - app - INFO - Request Method: POST
+2024-08-25 16:43:35,498 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-25 16:43:35,499 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-25 16:43:36,004 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-25 16:43:36,006 - app - INFO - Response Status: 200 OK
+2024-08-25 16:44:41,451 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:44:41,452 - app - INFO - Request Method: POST
+2024-08-25 16:44:41,456 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-25 16:44:41,457 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-25 16:44:41,984 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-25 16:44:41,985 - app - INFO - Response Status: 200 OK
+2024-08-25 16:47:14,896 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:47:14,897 - app - INFO - Request Method: POST
+2024-08-25 16:47:14,898 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-25 16:47:14,900 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-25 16:47:15,464 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-25 16:47:15,466 - app - INFO - Response Status: 200 OK
+2024-08-25 16:48:13,054 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2024-08-25 16:48:13,056 - app - INFO - Request Method: GET
+2024-08-25 16:48:13,057 - app - INFO - Request Data: b''
+2024-08-25 16:48:13,101 - app - INFO - Response Status: 200 OK
+2024-08-25 16:48:13,228 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2024-08-25 16:48:13,230 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2024-08-25 16:48:13,238 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2024-08-25 16:48:13,239 - app - INFO - Request Method: GET
+2024-08-25 16:48:13,241 - app - INFO - Request Method: GET
+2024-08-25 16:48:13,242 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2024-08-25 16:48:13,243 - app - INFO - Request Method: GET
+2024-08-25 16:48:13,244 - app - INFO - Request Data: b''
+2024-08-25 16:48:13,246 - app - INFO - Request Data: b''
+2024-08-25 16:48:13,246 - app - INFO - Request Method: GET
+2024-08-25 16:48:13,247 - app - INFO - Request Data: b''
+2024-08-25 16:48:13,250 - app - INFO - Request Data: b''
+2024-08-25 16:48:13,577 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:48:13,604 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:48:13,612 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:48:13,618 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:48:13,793 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2024-08-25 16:48:13,797 - app - INFO - Request Method: GET
+2024-08-25 16:48:13,798 - app - INFO - Request Data: b''
+2024-08-25 16:48:13,800 - app - INFO - Response Status: 304 NOT MODIFIED
+2024-08-25 16:48:13,916 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2024-08-25 16:48:13,918 - app - INFO - Request Method: GET
+2024-08-25 16:48:13,920 - app - INFO - Request Data: b''
+2024-08-25 16:48:13,941 - app - INFO - Response Status: 200 OK
+2024-08-25 16:48:46,038 - app - INFO - Request URL: http://127.0.0.1:8080/predict
+2024-08-25 16:48:46,040 - app - INFO - Request Method: POST
+2024-08-25 16:48:46,042 - app - INFO - Request Data: b'{\n  "Age": 33,\n  "BMI": 25,\n  "BloodPressure": 70,\n  "DiabetesPedigreeFunction": 0.5,\n  "Glucose": 120,\n  "Insulin": 80,\n  "Language": "fr",\n  "Pregnancies": 2,\n  "SkinThickness": 30\n}'
+2024-08-25 16:48:46,043 - app - INFO - Received request data: {'Age': 33, 'BMI': 25, 'BloodPressure': 70, 'DiabetesPedigreeFunction': 0.5, 'Glucose': 120, 'Insulin': 80, 'Language': 'fr', 'Pregnancies': 2, 'SkinThickness': 30}
+2024-08-25 16:48:46,558 - app - INFO - Prediction: Aucun diabète détecté, Probability: 0.32
+2024-08-25 16:48:46,561 - app - INFO - Response Status: 200 OK
+2024-08-27 00:21:18,711 - app - INFO - Request URL: http://127.0.0.1:5000/predict
+2024-08-27 00:21:18,713 - app - INFO - Request Method: POST
+2024-08-27 00:21:18,723 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-27 00:21:18,725 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-27 00:21:19,310 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-27 00:21:19,312 - app - INFO - Response Status: 200 OK
+2024-08-27 00:21:34,142 - app - INFO - Request URL: http://127.0.0.1:5000/predict
+2024-08-27 00:21:34,144 - app - INFO - Request Method: POST
+2024-08-27 00:21:34,146 - app - INFO - Request Data: b'{\r\n    "Pregnancies": 6,\r\n    "Glucose": 148,\r\n    "BloodPressure": 72,\r\n    "SkinThickness": 35,\r\n    "Insulin": 30.5,\r\n    "BMI": 33.6,\r\n    "DiabetesPedigreeFunction": 0.627,\r\n    "Age": 50,\r\n    "Language": "tr"  \n}\r\n'
+2024-08-27 00:21:34,148 - app - INFO - Received request data: {'Pregnancies': 6, 'Glucose': 148, 'BloodPressure': 72, 'SkinThickness': 35, 'Insulin': 30.5, 'BMI': 33.6, 'DiabetesPedigreeFunction': 0.627, 'Age': 50, 'Language': 'tr'}
+2024-08-27 00:21:34,733 - app - INFO - Prediction: Diyabet Tespit Edildi, Probability: 0.75
+2024-08-27 00:21:34,736 - app - INFO - Response Status: 200 OK

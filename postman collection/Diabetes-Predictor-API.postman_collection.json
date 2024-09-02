@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "f2496e98-cde9-410b-aa34-1278f12628a9",
+		"name": "Diabetes-Predictor-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33368359"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Pregnancies\": 6,\r\n    \"Glucose\": 148,\r\n    \"BloodPressure\": 72,\r\n    \"SkinThickness\": 35,\r\n    \"Insulin\": 30.5,\r\n    \"BMI\": 33.6,\r\n    \"DiabetesPedigreeFunction\": 0.627,\r\n    \"Age\": 50,\r\n    \"Language\": \"tr\"  // Specify the language code here (e.g., \"en\" for English, \"fr\" for French)\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/predict",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
